@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://kit.fontawesome.com/b237aa7797.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Joti+One&family=Kaushan+Script&family=Oswald:wght@200..700&family=Rubik+Glitch&family=Rubik+Mono+One&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+	<title>Portfolio Wireframe</title>
+	
+	<link rel="stylesheet" href="pluggins/progress-bar-counter/animated-counter-prograssbar.css"/>
+	<link rel="stylesheet" href="pluggins/lightGallery-1.10.0/dist/css/lightgallery.min.css"/>
+	<script
+		src="https://code.jquery.com/jquery-3.7.1.js"
+		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="pluggins/lightbox2-master/dist/css/lightbox.min.css">
+
+	<style type="text/css">
+
+		html{
+			font-size: 16px;
+		}
+		
+		body{
+			margin: 0;
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		header{
+			height: 100vh;
+			width: 90%;
+			/*display: flex;
+			flex-direction: column;*/
+			margin-left: 5%;
+		}
+
+		h1{
+			text-align: center;
+			font-size: 60px;
+			font-family: Rubik Mono One;
+			margin: 0;
+			color: #5CA2C3;
+		}
+
+		hr{
+			width: 500px;
+			margin-top: 0;
+			margin-bottom: 0;
+
+		}
+
+		.subtitulodiapo{
+			text-align: center;
+			color: #BCBB65;
+			font-family: The Nautigal;
+			font-size: 60px;
+
+		}
+
+		p{
+			margin: 0;
+			padding: 0;
+		}
+
+		.contenedornav{
+			height: 7vh;
+			width: 100%;
+			background-color: #5CA2C3;
+			/*flex-grow: 2;*/
+			/*border: solid #419293 4px;*/
+			border-left: ;
+			border-right: ;
+			box-sizing: border-box;
+			position: fixed;	
+			display: flex;		
+			z-index: 2;
+		}
+
+		.menu1{
+			width: 14vw;
+			align-content: space-around;
+			
+		}
+
+		.nombre{
+			text-align: center;
+			font-size: 30px;
+			font-family: Kaushan Script;
+		}
+
+		.menu2{
+			width: 18vw;
+			align-content: center;
+		}
+
+		.menu2 i{
+			color: white;
+			font-size: 30px;
+			margin-left: 1%;
+		}
+
+		.menu3{
+			width: 67vw;
+			align-content: center;
+		}
+
+		.frase{
+			font-size: 24px;
+			text-align: center;
+		}
+
+
+		.fa-solid{
+			font-size: 40px;
+			color: white;
+			text-align: center;
+		}
+
+		.contenedorgris{
+			background-color: #A2A2A2;
+			height: 9vh;
+			width: 100%;
+			/*flex-grow: 1;*/
+			/*border: solid #878787 4px;*/
+			box-sizing: border-box;
+			border-top: 0;
+			border-bottom: 0;
+			position: fixed;
+			z-index: 1;
+
+		}
+
+		.contenedorinvi{
+			height: 9vh;
+		}
+
+		.portada{
+			height: 91vh;
+			/*flex-grow: 14;*/
+			background-color: #F2F2F2;
+			/*border: solid #E1E06C 2px;*/
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+			border-left: ;
+			bor
+		}
+
+		#menu{
+			text-align: center;
+			font-size: 2em;
+			line-height: 6vh;
+			margin: 0;
+		}
+
+		.portcont{
+			height: 50%;
+			width: 100%;
+			align-content: space-around;
+		}
+
+		#portfolio{
+			text-align: center;
+			font-size: 80px;
+			font-family: Joti one;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		.contactocont{
+			height: 50%;
+			width: 64%;
+			display: flex;
+			flex-wrap: wrap;
+			/*align-content: space-around;*/
+		}
+
+		#info{
+			font-size: 40px;
+			margin-left: 15%;
+			margin-top: 50px;
+			font-family: Joti One;
+		}
+
+		header i{
+			font-size: 50px;
+		}
+
+		.contenedorcontacto{
+			display: flex;
+			height: 12%;
+			width: 70%;
+			margin-left: 20%;
+		}
+
+		.iconocontacto{
+			flex-grow: 1;
+		}
+
+		.textocontacto{
+			flex-grow: 10;
+			font-size: 22px;
+			line-height: 40px;
+			font-weight: bold;
+			font-family: Joti One;
+		}
+
+		.separador1{
+			height: 6vh;
+			box-sizing: border-box;
+			background-image: url('img/grey-texture-background-d29qkeb2b46ygint.jpg');
+			/*border: solid black 4px;*/
+		}
+
+		.diapositiva1{
+			height: 110vh;
+		}
+
+		.contenedor1{
+			width: 90%;
+			height: 80%;
+			/*background-color: grey;*/
+			margin-left: 5%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+		}
+
+		.marco{
+			height: 350px;
+			width: 420px;
+			border: solid black 2px;
+			border-radius: 60px;
+			box-sizing: border-box;
+			background-image: url('img/selfie.jpg');
+			background-size: cover;
+		}
+
+		.bio{
+			height: 40%;
+			width: 50%;
+			align-content: center;
+			font-size: 30px;
+			font-family: Helvetica;
+			color: #2C2C2C
+		}
+
+		.skill{
+			height: 50%;
+			width: 100%;
+		}
+
+		.progress-title{
+			font-size: 24px;
+		}
+
+		.progress-fill {
+    	height: 50px;
+    	background: var(--progressbar-fill, linear-gradient(to right, #5CA2C3 0%, #DDDC78 100%));
+    	width: 0%;
+    	border-radius: 6px;
+}
+
+		.diapositiva2{
+			height: 440vh;
+		}
+
+		.contenedorgaleria{
+			display: flex;
+			height: 60vh;
+		}
+
+		.galeria{
+			height: 80%;
+			width: 97%;
+			overflow: hidden;
+		}
+
+		.contenedormiri{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin-bottom: 50px;
+		}
+
+		.miriwireframe{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/miriwireframe.png);
+			background-position: center;
+			background-size: cover;
+			margin-bottom: 40px;
+			margin-top: 20px;
+		}
+
+		.mirisolid{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/mirisolid.png);
+			background-position: center;
+			background-size: cover;
+			margin-bottom: 40px;
+			margin-top: 20px;
+		}
+
+		.mirimaterial{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/mirimaterial.png);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.mirirender{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/mirirender.png);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.lupawireframe{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/LupaWire.png);
+			background-position: center;
+			background-size: cover;
+			margin-bottom: 40px;
+			margin-top: 20px;
+		}
+
+		.lupasolid{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/LupaSolid.png);
+			background-position: center;
+			background-size: cover;
+			margin-bottom: 40px;
+			margin-top: 20px;
+		}
+
+		.lupamaterial{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/LupaColor.png);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.luparender{
+			height: 50vh;
+			width: 40%;
+			background-image: url(img/LupaRender.png);
+			background-position: center;
+			background-size: cover;
+		}
+
+		.visor3d{
+			height: 90vh
+		}
+
+		.visor3d iframe{
+			width: 100%;
+			height: 500px;
+		}
+
+		.diapositiva3{
+			height: 280vh;
+		}
+
+		.contenedorvideo{
+			height: 80vh;
+			display: flex;
+			justify-content: center;
+		}
+
+		.contenedorvideo iframe{
+			height: 600px;
+			width: 1100px;
+		}
+
+		.titulovideo{
+			text-align: center;
+			font-size: 50px;
+			font-family: Joti One;
+
+		}
+
+		.diapositiva4{
+			height: 120vh;
+		}
+
+		.diapositiva4 img{
+			height: 400px;
+			width: 400px;
+			transition: scale 0.5s
+
+		}
+
+		.diapositiva4 img:hover{
+			scale: 110%;
+		}
+
+		#imglarga{
+			width: 600px;
+			height: 400px;
+		}
+
+		.contenedorilustracion{
+			display: flex;
+			justify-content: center;
+			height: 100%;
+		}
+
+		.galeriailustracion{
+			display: flex;
+			height: 100vh;
+			width: 80%;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+
+		.demo{
+			height: 400px
+		}
+
+		footer{
+			height: 40vh;
+			background-color: #2D2E49;
+			display: flex;
+
+		}
+
+		.footer1{
+			height: 100%;
+			width: 50%;
+			font-size: 40px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+		}
+
+		#contactame{
+			font-size: 26px;
+			margin-left: 15%;
+			font-family: Joti One;
+			color: white;
+		}
+
+		#footerwhite{
+			color: white;
+		}
+
+		.footer2{
+			height: 100%;
+			width: 60%;
+			display: flex;
+			justify-content: space-evenly;
+			
+		}
+
+		.contenedorperfil{
+			height: 250px;
+			width: 250px;
+			margin-top: 50px;
+		}
+
+		footer img{
+			width: 100%;
+			height: 100%;
+			border-radius: 40px;
+			border: solid #DED464 4px;
+		}
+
+		.diapositiva5{
+			height: 280vh;
+		}
+
+		.chisato{
+			height: 60vh;
+			width: 100%;
+			background-image: url(img/Chisato-animacion.gif);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			margin-bottom: 5%;
+			margin-top: 5%;
+		}
+
+			@media(max-width: 1750px){
+				.galeriailustracion{
+					height: 100%;
+				}
+
+				.contenedorilustracion{
+					height: 90%;
+				}
+
+				.diapositiva4{
+					height: 200vh;
+				}
+			}
+
+			@media(max-width: 1500px){
+				.bio{
+					font-size: 24px;
+				}
+			}
+
+			@media(max-width: 1010px){
+				h1{
+					font-size: 46px;
+				}
+
+				hr{
+					width: 400px;
+				}
+
+				.menu1{
+					width: 16vw;						
+				}
+
+				.menu2{
+					width: 20vw;	
+				}
+
+				.menu3{
+					width: 60vw;
+				}
+
+				.deco1 img{
+					height: 400px;
+					width: 300px;
+					margin-left: 10%;
+				}
+
+				.deco2 img{
+					height: 400px;
+					width: 300px;
+				}
+
+				#portfolio{
+					font-size: 60px;
+				}
+
+				.subtitulodiapo{
+					font-size: 46px;
+				}
+
+				.diapositiva3{
+					height: 180vh;
+				}
+
+				.titulovideo{
+					font-size: 34px;
+				}
+
+				.contenedorvideo{
+					height: 50vh;
+				}
+
+				.contenedorvideo iframe{
+					width: 700px;
+					height: 400px;
+				}
+
+				.marco{
+					height: 260px;
+					width: 330px;
+				}
+
+				.bio{
+					height: 34%;
+					font-size: 18px;
+				}
+
+
+				.diapositiva4 img{
+					height: 300px;
+					width: 300px;
+				}
+
+				#imglarga{
+					width: 500px;
+					height: 300px;
+				}
+
+				.nombre{
+					font-size: 24px;
+				}
+
+				.menu2 i{
+					font-size: 24px;
+				}
+
+				.frase{
+					font-size: 20px;
+				}
+
+				.diapositiva4{
+					height: 150vh;
+				}
+
+				.galeriailustracion{
+					height: 130vh;
+				}
+
+				.diapositiva5{
+					height: 200vh;
+				}
+			}
+
+			@media(max-width: 768px){
+
+				#portfolio{
+					font-size: 40px;
+				}
+
+				header i{
+					font-size: 40px;
+				}
+
+				.deco1 img{
+					height: 380px;
+					width: 280px;
+					margin-left: 8%;
+				}
+
+				.deco2 img{
+					height: 380px;
+					width: 280px;					
+				}
+
+				.frase{
+					font-size: 16px;
+				}
+
+				.textocontacto{
+					font-size: 20px;					
+				}
+
+				.diapositiva1{
+					height: 120vh;
+				}
+
+				.contenedor1{
+					height: 90%;
+				}
+
+				.marco{
+					height: 340px;
+					width: 410px;
+				}
+
+				.bio{
+					width: 100%;
+					height: 20%;
+					font-size: 20px;
+				}
+
+				.diapositiva3{
+					height: 150vh;
+				}
+
+				.contenedorvideo{
+					height: 40vh;
+				}
+
+				.contenedorvideo iframe{
+					width: 500px;
+					height: 300px;
+				}
+
+				.diapositiva4{
+					height: 280vh;
+				}
+
+				.galeriailustracion{
+					height: 250vh;
+				}
+
+				.diapositiva4 img{
+					height: 500px;
+					width: 500px;
+				}
+
+				#imglarga{
+					width: 500px;
+					height: 300px;
+				}
+
+			}
+
+			@media(max-width: 684px){
+				.nombre{
+					font-size: 20px;
+				}
+
+				.menu2 i{
+					font-size: 20px;
+				}
+
+				#contactame{
+					font-size: 24px;
+				}
+
+				.textocontacto{
+					font-size: 16px;
+
+				}
+
+				.deco1 img{
+					width: 200px;
+					height: 300px;
+				}
+
+				.deco2 img{
+					width: 200px;
+					height: 300px;
+				}
+
+				footer i{
+					font-size: 36px;
+					line-height: 10px;
+				}
+
+				.contenedorperfil{
+					height: 200px;
+					width: 200px;
+					margin-top: 100px;
+				}
+			}
+
+			@media(max-width: 566px){
+				h1{
+					font-size: 36px;
+				}
+
+				.galeriailustracion img{
+					width: 100%;
+					height: 400px;
+				}
+
+				#imglarga{
+					width: 100%;
+					height: 400px;
+				}
+
+				.marco{
+					height: 250px;
+					width: 300px;
+				}
+
+				.bio{
+					font-size: 18px;
+				}
+			}
+
+			@media(max-width: 525px){
+				footer{
+					flex-direction: column;
+					height: 70vh;
+				}
+
+				.footer2{
+					height: 70%;
+				}
+
+				.contenedorperfil{
+					margin-top: 20px;
+				}
+
+				.contenedorcontacto{
+					margin-left: 0;
+				}
+
+				#info{
+					margin-left: 0;
+				}
+
+				header{
+					height: 69vh;
+				}
+
+				.portada{
+					height: 60vh;
+					justify-content: center;
+				}
+			}
+	</style>
+</head>
+<body>
+
+<nav class="contenedornav">
+	<div class="menu1"><p class="nombre">YIFAN LIU</p></div>
+	<div class="menu2">
+		<a href="https://x.com/yifiil">
+			<i class="fa-brands fa-x-twitter"></i>
+		</a>
+		<a href="https://www.instagram.com/yifiil/">
+			<i class="fa-brands fa-instagram"></i>
+		</a>
+		<a href="https://www.youtube.com/@yifiil">
+			<i class="fa-brands fa-youtube"></i>
+		</a>
+		<a href="https://www.linkedin.com/in/yifan-liu-950737350/">
+			<i class="fa-brands fa-linkedin"></i></div>
+		</a>
+	<div class="menu3"><p class="frase">"EL FUTURO ES INCIERTO PERO PROMETEDOR"</p></div>
+</nav>
+<div class="contenedorgris"></div>
+
+<header>
+	<div class="contenedorinvi"></div>
+	<div class="portada">
+		<div class="portcont"><p id="portfolio">Portfolio</p><p class="subtitulodiapo">Yifan Liu</p></div>
+		<div class="contactocont">
+			<p id="info">Contactame</p>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto"><i class="fa-regular fa-envelope"></i></div>
+				<div class="textocontacto">yifanliuprof@gmail.com</div>
+			</div>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto"><i class="fa-regular fa-envelope"></i></div>
+				<div class="textocontacto">yifanliu642@gmail.com</div>
+			</div>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto"><i class="fa-brands fa-discord"></i></div>
+				<div class="textocontacto">yifiil</div>
+			</div>
+
+</header>
+
+<div class="separador1"></div>
+
+<div class="diapositiva1">
+	<h1>01 INTRODUCCIÓN</h1>
+	<hr>
+	<p class="subtitulodiapo">sobre mi</p>
+	<div class="contenedor1">
+		<div class="marco"></div>
+		<div class="bio"><p>!!!Buenas¡¡¡.Me llamo Yifan, tengo 20 años y actualmente estoy estudiando un ciclo de animación 3D. Me encanta ver anime, escuchar música, jugar videojuegos en mi tiempo libre o salir con mis amigos. De aqui a futuro me gustaría aprender a dibujar, así que he estado trabajando en ello para mejorar. Estoy aprendiendo sobre Blender, diseño de juegos, postproducción y animación para poder dedicarme a ello profesionalmente. Un gusto conocerle.</p></div>
+	<div class="skill">
+		
+		<div class="progressbar-item">
+  	<h4 class="progress-title">Blender</h4>
+  	<div progress-bar data-percentage="60%">
+    <div class="progress-number">
+      <div class="progress-number-mark">
+        <span class="percent"></span>
+        <span class="down-arrow"></span>
+      </div>
+    </div>
+    <div class="progress-bg">
+      <div class="progress-fill"></div>
+    </div>
+  	</div>
+	</div>
+
+
+ 
+<div class="progressbar-item">
+  <h4 class="progress-title">Photoshop</h4>
+  <div progress-bar data-percentage="40%">
+    <div class="progress-number">
+      <div class="progress-number-mark">
+        <span class="percent"></span>
+        <span class="down-arrow"></span>
+      </div>
+    </div>
+    <div class="progress-bg">
+      <div class="progress-fill"></div>
+    </div>
+  </div>
+</div>
+ 
+<div class="progressbar-item">
+  <h4 class="progress-title">Premiere</h4>
+  <div progress-bar data-percentage="50%">
+    <div class="progress-number">
+      <div class="progress-number-mark">
+        <span class="percent"></span>
+        <span class="down-arrow"></span>
+      </div>
+    </div>
+    <div class="progress-bg">
+      <div class="progress-fill"></div>
+  	</div>
+  </div>
+</div>
+
+<div class="progressbar-item">
+  <h4 class="progress-title">After Effects</h4>
+  <div progress-bar data-percentage="30%">
+    <div class="progress-number">
+      <div class="progress-number-mark">
+        <span class="percent"></span>
+        <span class="down-arrow"></span>
+      </div>
+    </div>
+    <div class="progress-bg">
+      <div class="progress-fill"></div>
+  	</div>
+  </div>
+</div>
+
+
+
+		</div>
+	</div>
+</div>
+<div class="separador1"></div>
+	<div class="diapositiva2">
+		<h1>02 Modelaje</h1>
+		<hr>
+		<p class="subtitulodiapo">artistico</p>
+		<div class="contenedorgaleria">
+			<div class="galeria">
+				<ul id="lightGallery" class="gallery">
+	  			<li data-title="Title 1" data-desc="Description 1" data-responsive-src="img/baston.png" data-src="img/baston.png"> <a href="#"> <img src="img/bastonthumbnail.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/Cara Frontal.png"> <a href="#"> <img src="img/Cara Frontal.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/Cara Lateral.png"> <a href="#"> <img src="img/Cara Lateral.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/Cara Lateral 2.png"> <a href="#"> <img src="img/Cara Lateral 2.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/casamito.png"> <a href="#"> <img src="img/casamito.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/lowpoly1.png"> <a href="#"> <img src="img/lowpoly1.png" /> </a> </li>
+	  			<li data-title="Title 2" data-desc="Description 2" data-responsive-src="img/cara.png" data-src="img/lowpoly2.png"> <a href="#"> <img src="img/lowpoly2.png" /> </a> </li>
+
+			</div>
+		</div>
+		<p class="subtitulodiapo">Miri (Luminaria)</p>
+		<div class="contenedormiri">
+			<div class="miriwireframe"></div>
+			<div class="mirisolid"></div>
+			<div class="mirimaterial"></div>
+			<div class="mirirender"></div>
+		</div>
+		<div class="visor3d">
+		<div class="sketchfab-embed-wrapper"> <iframe title="Miri Luminaria Finished" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/c73a4c2e229e4c8f8ebcafaf888874e6/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/miri-luminaria-finished-c73a4c2e229e4c8f8ebcafaf888874e6?utm_medium=embed&utm_campaign=share-popup&utm_content=c73a4c2e229e4c8f8ebcafaf888874e6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Miri Luminaria Finished </a> by <a href="https://sketchfab.com/yifiil?utm_medium=embed&utm_campaign=share-popup&utm_content=c73a4c2e229e4c8f8ebcafaf888874e6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> yifiil </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=c73a4c2e229e4c8f8ebcafaf888874e6" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+
+		<p class="subtitulodiapo">Lupa</p>
+		<div class="contenedormiri">
+			<div class="lupawireframe"></div>
+			<div class="lupasolid"></div>
+			<div class="lupamaterial"></div>
+			<div class="luparender"></div>
+		</div>
+		<div class="visor3d">
+		<div class="sketchfab-embed-wrapper"> <iframe title="Lupa Color 2" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/5bf32199edcb4e5b9864f6ff906f1fa2/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/lupa-color-2-5bf32199edcb4e5b9864f6ff906f1fa2?utm_medium=embed&utm_campaign=share-popup&utm_content=5bf32199edcb4e5b9864f6ff906f1fa2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Lupa Color 2 </a> by <a href="https://sketchfab.com/yifiil?utm_medium=embed&utm_campaign=share-popup&utm_content=5bf32199edcb4e5b9864f6ff906f1fa2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> yifiil </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=5bf32199edcb4e5b9864f6ff906f1fa2" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+	</div>
+	</div>
+	</div>
+	
+<div class="separador1"></div>
+<div class="diapositiva3">
+	<h1>03 Postproducción</h1>
+	<hr>
+	<p class="subtitulodiapo">Edición</p>
+	<p class="titulovideo">Trailer</p>
+	<div class="contenedorvideo">
+		<iframe src="https://www.youtube.com/embed/31GnCblA-a0?si=OYmcxyu6-ljCRle4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+	<p class="titulovideo">Tribute</p>
+	<div class="contenedorvideo">
+		<iframe src="https://www.youtube.com/embed/JkeHjzcWhxY?si=8pV6LPx8AGVvsjZG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+	<p class="titulovideo">Visual Music</p>
+	<div class="contenedorvideo">
+		<iframe src="https://www.youtube.com/embed/LrfDY_Vh92k?si=rOIkYWqvkv9KobR6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+</div>
+
+ 
+<div class="separador1"></div>
+
+<div class="diapositiva4">
+	<h1>04 Ilustración</h1>
+	<hr>
+	<p class="subtitulodiapo">Practicas Referencia</p>
+	<div class="contenedorilustracion">
+		<div class="galeriailustracion">
+			<a class="demo" href="img/Frieren careto.png" data-lightbox="example-3" data-title="Frieren">
+	  			<img class="example-image" src="img/Frieren careto.png" alt="img/Frieren careto.png">
+			</a>
+			<a class="demo" href="img/Fubuki.png" data-lightbox="example-3" data-title="Fubuki">
+	  			<img class="example-image" src="img/Fubuki.png" alt="img/Fubuki.png">
+			</a>
+			<a class="demo" href="img/BG.png" data-lightbox="example-3" data-title="BG">
+	  			<img class="example-image" src="img/BG.png" alt="img/BG.png" id="imglarga">
+			</a>
+			<a class="demo" href="img/Mumei.png" data-lightbox="example-3" data-title="Mumei">
+	  			<img class="example-image" src="img/Mumei.png" alt="img/Mumei.png">
+			</a>
+			<a class="demo" href="img/sakuya completo.png" data-lightbox="example-3" data-title="Sakuya Izayoi">
+	  			<img class="example-image" src="img/sakuya completo.png" alt="img/sakuya completo.png">
+			</a>
+		</div>
+	</div>
+</div>
+<div class="separador1"></div>
+
+<div class="diapositiva5">
+	<h1>05 Animación</h1>
+	<hr>
+	<p class="subtitulodiapo">2D/3D</p>
+	<div class="chisato"></div>
+	<p class="titulovideo">Lupa</p>
+	<div class="contenedorvideo">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/qE0btl96MAo?si=2RfNDHboBmUnIC2n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+	<p class="titulovideo">PalaLowpoly</p>
+	<div class="contenedorvideo">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/Ss5fOlEKAfs?si=YEbMriiZLRBtk8Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+</div>
+<div class="separador1"></div>
+<footer>
+		<div class="footer1">
+			<p id="contactame">Contactame</p>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto" id="footerwhite"><i class="fa-regular fa-envelope"></i></div>
+				<div class="textocontacto" id="footerwhite">yifanliuprof@gmail.com</div>
+			</div>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto" id="footerwhite"><i class="fa-regular fa-envelope"></i></div>
+				<div class="textocontacto" id="footerwhite">yifanliu642@gmail.com</div>
+			</div>
+			<div class="contenedorcontacto">
+				<div class="iconocontacto" id="footerwhite"><i class="fa-brands fa-discord"></i></div>
+				<div class="textocontacto" id="footerwhite">yifiil</div>
+			</div>
+		</div>
+		<div class="footer2">
+			<div class="contenedorperfil">
+				<img src="img/Img perfil 500.jpg" alt="">
+			</div>	
+		</div>
+
+
+
+
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="pluggins/progress-bar-counter/animated-counter-prograssbar.js"></script>
+<script src="pluggins/lightGallery-1.10.0/dist/js/lightgallery-all.min.js"></script>
+
+
+<script type="text/javascript">
+	$(document).ready(function() {
+	  $("#lightGallery").lightGallery();
+	});
+
+</script>
+<script src="pluggins/lightbox2-master/dist/js/lightbox.js"></script>
+
+
+</body>
+</html>
